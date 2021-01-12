@@ -6,7 +6,7 @@
     "notes": [
         "To add TortoiseGit as a context menu option, run '$dir\\tortoisegit-install.reg'",
         "For file associations, run '$dir\\tortoisegit-install-tools.reg'",
-        "Before uninstalling TortoiseSVN, run '$dir\\tortoisegit-uninstall.reg' "
+        "Before uninstalling TortoiseGit, run '$dir\\tortoisegit-uninstall.reg' "
     ],
     "architecture": {
         "64bit": {
