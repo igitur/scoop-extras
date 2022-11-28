@@ -1,0 +1,45 @@
+{
+    "version": "1.1.5",
+    "description": "The purpose of the TortoiseOverlays project is to provide a common icon overlay handler for all the Tortoise clients.",
+    "homepage": "https://gitlab.com/tortoisegit/tortoisegit/-/tree/master/ext/TortoiseOverlays",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://svn.osdn.net/svnroot/tortoisesvn/TortoiseOverlays/version-1.1.5/bin/TortoiseOverlays-1.1.5.29440-x64.msi",
+            "hash": "37460758cb5cacbed04b6eadc25d0f420e8023e9efc90e938e216fb9e1ec106c"
+        },
+        "32bit": {
+            "url": "https://svn.osdn.net/svnroot/tortoisesvn/TortoiseOverlays/version-1.1.5/bin/TortoiseOverlays-1.1.5.29440-win32.msi",
+            "hash": "595989ebb855bacefd20a132d1f1fb83e9847057218aef0994a306bfe50a5ae7"
+        }
+    },
+    "extract_dir": "Common\\TortoiseOverlays",
+    "checkver": {
+        "script": [
+            "# Using checkver script to find commit id",
+            "$url = 'https://svn.osdn.net/svnroot/tortoisesvn/TortoiseOverlays/'",
+            "$content = (Invoke-WebRequest $url).Content",
+            "$r = '>version-([\\d\\.]+)\\/'",
+            "if (!($content -match $r)) { error \"Could not match $r in $url\"; break }",
+            "$match = (Select-String -Pattern $r -InputObject $content -AllMatches).Matches | Select-Object -Last 1",
+            "$version = $match.Groups[1].Value",
+            "$url = \"$($url)version-$version/bin/\"",
+            "$content = (Invoke-WebRequest $url).Content",
+            "$r = \">TortoiseOverlays-$version\\.(\\d{5})-x64.msi<\"",
+            "if (!($content -match $r)) { error \"Could not match $r in $url\"; break }",
+            "$commit = $matches[1]",
+            "Write-Output $version $commit"
+        ],
+        "regex": "([\\d.]+) (?<commit>[\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://svn.osdn.net/svnroot/tortoisesvn/TortoiseOverlays/version-$version/bin/TortoiseOverlays-$version.$matchCommit-x64.msi"
+            },
+            "32bit": {
+                "url": "https://svn.osdn.net/svnroot/tortoisesvn/TortoiseOverlays/version-$version/bin/TortoiseOverlays-$version.$matchCommit-win32.msi"
+            }
+        }
+    }
+}
