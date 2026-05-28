@@ -4,23 +4,31 @@
     "homepage": "https://tortoisegit.org",
     "license": "GPL-2.0-only",
     "notes": [
-        "To add TortoiseGit as a context menu option, run '$dir\\tortoisegit-install.reg'",
-        "For file associations, run '$dir\\tortoisegit-install-tools.reg'",
-        "Before uninstalling TortoiseGit, run '$dir\\tortoisegit-uninstall.reg' "
+        "To enable TortoiseGit context menus:",
+        "  reg import \"$dir\\tortoisegit-install.reg\"",
+        "",
+        "Optional file associations:",
+        "  reg import \"$dir\\tortoisegit-install-file-assoc.reg\"",
+        "",
+        "Optional icon overlays (REQUIRES ADMIN - run as administrator):",
+        "  reg import \"$dir\\tortoisegit-install-overlays.reg\"",
+        "  Stop-Process -Name explorer -Force"
     ],
     "architecture": {
         "64bit": {
             "url": [
                 "https://download.tortoisegit.org/tgit/2.18.0.0/TortoiseGit-2.18.0.1-64bit.msi",
-                "https://raw.githubusercontent.com/igitur/scoop-extras/add-tortoisegit/scripts/tortoisegit/tortoisegit-install-tools.reg.templ",
                 "https://raw.githubusercontent.com/igitur/scoop-extras/add-tortoisegit/scripts/tortoisegit/tortoisegit-install.reg.templ",
+                "https://raw.githubusercontent.com/igitur/scoop-extras/add-tortoisegit/scripts/tortoisegit/tortoisegit-install-overlays.reg.templ",
+                "https://raw.githubusercontent.com/igitur/scoop-extras/add-tortoisegit/scripts/tortoisegit/tortoisegit-install-file-assoc.reg.templ",
                 "https://raw.githubusercontent.com/igitur/scoop-extras/add-tortoisegit/scripts/tortoisegit/tortoisegit-uninstall.reg"
             ],
             "hash": [
                 "cbf7d52aa0ecca665521e14d8d1a4b6cda52a4bc13de45f49084e15571c77410",
-                "04bd76001fdf3e36435b53b50751236107d7fe0e7c4c61d70a0d242612f90a0d",
-                "177d059f5aa5bfee97a56b28200ee76acae451c8a276c4cde43fcc0e0ef32b3c",
-                "3aeb9e65c620d877563e5ec61d93dc910296d427a334622451802117431d1982"
+                "48ae5383692d0de4bec81a215ef7f7658dd45029f1c90a9494af54788705c42d",
+                "86ec9933fe9faadf4d1c4a6e088219678ee2ca3eec10657068585201d2e63e52",
+                "fd53fe77a38f5957ad40da4dd692f2ddbfe0aa8f0ca8ecef6e7be93738bed43d",
+                "fe41e32f48e4f6d6ab37a1b7198978934ef32a500ca932aa040fe9440e435cc8"
             ]
         },
         "32bit": {
@@ -31,9 +39,11 @@
     "extract_dir": "Program Files\\TortoiseGit",
     "pre_install": [
         "$escdir = \"$dir\" -replace '\\\\', '\\\\'",
-        "'install', 'install-tools' | ForEach-Object {",
-        "    (Get-Content \"$dir\\tortoisegit-$_.reg.templ\") -replace '%TGITHOME%', \"$escdir\" | Set-Content -LiteralPath \"$dir\\tortoisegit-$_.reg\" -Encoding Ascii",
-        "    Remove-Item \"$dir\\tortoisegit-$_.reg.templ\"",
+        "'install', 'install-overlays', 'install-file-assoc' | ForEach-Object {",
+        "    if (Test-Path \"$dir\\tortoisegit-$_.reg.templ\") {",
+        "        (Get-Content \"$dir\\tortoisegit-$_.reg.templ\") -replace '%TGITHOME%', \"$escdir\" | Set-Content -LiteralPath \"$dir\\tortoisegit-$_.reg\" -Encoding Ascii",
+        "        Remove-Item \"$dir\\tortoisegit-$_.reg.templ\"",
+        "    }",
         "}"
     ],
     "shortcuts": [

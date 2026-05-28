@@ -1,0 +1,46 @@
+REGEDIT4
+
+; TortoiseGit File Type Associations
+; Registers .diff and .patch file handlers for current user (no admin rights required)
+
+; .diff File Association
+
+[HKEY_CURRENT_USER\Software\Classes\.diff]
+@="tortoisegit.diff.document"
+"Content Type"="text/plain"
+"PerceivedType"="text"
+
+[HKEY_CURRENT_USER\Software\Classes\.diff\OpenWithProgids]
+"tortoisegit.diff.document"=""
+
+; .patch File Association
+
+[HKEY_CURRENT_USER\Software\Classes\.patch]
+@="tortoisegit.patch.document"
+"Content Type"="text/plain"
+"PerceivedType"="text"
+
+[HKEY_CURRENT_USER\Software\Classes\.patch\OpenWithProgids]
+"tortoisegit.patch.document"=""
+
+; Diff Document Class
+
+[HKEY_CURRENT_USER\Software\Classes\tortoisegit.diff.document]
+@="Diff File"
+
+[HKEY_CURRENT_USER\Software\Classes\tortoisegit.diff.document\DefaultIcon]
+@="%TGITHOME%\\bin\\TortoiseGitUDiff.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\tortoisegit.diff.document\shell\open\command]
+@="\"%TGITHOME%\\bin\\TortoiseGitUDiff.exe\" /patchfile:\"%1\""
+
+; Patch Document Class
+
+[HKEY_CURRENT_USER\Software\Classes\tortoisegit.patch.document]
+@="Patch File"
+
+[HKEY_CURRENT_USER\Software\Classes\tortoisegit.patch.document\DefaultIcon]
+@="%TGITHOME%\\bin\\TortoiseGitUDiff.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\tortoisegit.patch.document\shell\open\command]
+@="\"%TGITHOME%\\bin\\TortoiseGitUDiff.exe\" /patchfile:\"%1\""

@@ -1,76 +1,94 @@
 REGEDIT4
 
-[-HKEY_CLASSES_ROOT\LibraryFolder\background\shellex\ContextMenuHandlers\TortoiseSVN]
-[-HKEY_CLASSES_ROOT\LibraryLocation\shellex\ContextMenuHandlers\TortoiseSVN]
-[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\TortoiseSVN]
-[-HKEY_CLASSES_ROOT\*\shellex\PropertySheetHandlers\TortoiseSVN]
-[-HKEY_CLASSES_ROOT\.diff]
-[-HKEY_CLASSES_ROOT\.patch]
-[-HKEY_CLASSES_ROOT\CLSID\{30351346-7B7D-4FCC-81B4-1E394CA267EB}]
-[-HKEY_CLASSES_ROOT\CLSID\{30351347-7B7D-4FCC-81B4-1E394CA267EB}]
-[-HKEY_CLASSES_ROOT\CLSID\{30351348-7B7D-4FCC-81B4-1E394CA267EB}]
-[-HKEY_CLASSES_ROOT\CLSID\{30351349-7B7D-4FCC-81B4-1E394CA267EB}]
-[-HKEY_CLASSES_ROOT\CLSID\{3035134A-7B7D-4FCC-81B4-1E394CA267EB}]
-[-HKEY_CLASSES_ROOT\CLSID\{3035134B-7B7D-4FCC-81B4-1E394CA267EB}]
-[-HKEY_CLASSES_ROOT\CLSID\{3035134C-7B7D-4FCC-81B4-1E394CA267EB}]
-[-HKEY_CLASSES_ROOT\CLSID\{3035134D-7B7D-4FCC-81B4-1E394CA267EB}]
-[-HKEY_CLASSES_ROOT\CLSID\{3035134E-7B7D-4FCC-81B4-1E394CA267EB}]
-[-HKEY_CLASSES_ROOT\CLSID\{3035134F-7B7D-4FCC-81B4-1E394CA267EB}]
-[-HKEY_CLASSES_ROOT\CLSID\{30351350-7B7D-4FCC-81B4-1E394CA267EB}]
-[-HKEY_CLASSES_ROOT\CLSID\{C5994560-53D9-4125-87C9-F193FC689CB2}]
-[-HKEY_CLASSES_ROOT\CLSID\{C5994561-53D9-4125-87C9-F193FC689CB2}]
-[-HKEY_CLASSES_ROOT\CLSID\{C5994562-53D9-4125-87C9-F193FC689CB2}]
-[-HKEY_CLASSES_ROOT\CLSID\{C5994563-53D9-4125-87C9-F193FC689CB2}]
-[-HKEY_CLASSES_ROOT\CLSID\{C5994564-53D9-4125-87C9-F193FC689CB2}]
-[-HKEY_CLASSES_ROOT\CLSID\{C5994565-53D9-4125-87C9-F193FC689CB2}]
-[-HKEY_CLASSES_ROOT\CLSID\{C5994566-53D9-4125-87C9-F193FC689CB2}]
-[-HKEY_CLASSES_ROOT\CLSID\{C5994567-53D9-4125-87C9-F193FC689CB2}]
-[-HKEY_CLASSES_ROOT\CLSID\{C5994568-53D9-4125-87C9-F193FC689CB2}]
-[-HKEY_CLASSES_ROOT\CLSID\{F26E2640-0CFF-43DC-8325-575A3261D885}]
-[-HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\TortoiseSVN]
-[-HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\TortoiseSVN]
-[-HKEY_CLASSES_ROOT\Directory\shellex\CopyHookHandlers\TortoiseSVN]
-[-HKEY_CLASSES_ROOT\Directory\shellex\DragDropHandlers\TortoiseSVN]
-[-HKEY_CLASSES_ROOT\Directory\shellex\PropertySheetHandlers\TortoiseSVN]
-[-HKEY_CLASSES_ROOT\Drive\shellex\ContextMenuHandlers\TortoiseSVN]
-[-HKEY_CLASSES_ROOT\Drive\shellex\PropertySheetHandlers\TortoiseSVN]
-[-HKEY_CLASSES_ROOT\Folder\shellex\ColumnHandlers\{30351349-7B7D-4FCC-81B4-1E394CA267EB}]
-[-HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\TortoiseSVN]
-[-HKEY_CLASSES_ROOT\Folder\shellex\DragDropHandlers\TortoiseSVN]
-[-HKEY_CLASSES_ROOT\Interface\{2F5EA5B0-4DE7-4f96-8E6B-FC0C37D9C0D6}]
-[-HKEY_CLASSES_ROOT\InternetShortcut\shellex\ContextMenuHandlers\TortoiseSVN]
-[-HKEY_CLASSES_ROOT\lnkfile\shellex\ContextMenuHandlers\TortoiseSVN]
-[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\TortoiseSVN]
-[-HKEY_CLASSES_ROOT\*\shellex\PropertySheetHandlers\TortoiseSVN]
-[-HKEY_CLASSES_ROOT\SubWCRev.object.1]
-[-HKEY_CLASSES_ROOT\SubWCRev.object]
-[-HKEY_CLASSES_ROOT\svn+ssh]
-[-HKEY_CLASSES_ROOT\svn]
-[-HKEY_CLASSES_ROOT\tsvn]
-[-HKEY_CLASSES_ROOT\TypeLib\{40ACF49D-74FF-4165-94E9-0E002C448520}]
-[-HKEY_CLASSES_ROOT\unified_diff_file]
-[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\1TortoiseNormal]
-[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\2TortoiseModified]
-[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\3TortoiseConflict]
-[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\4TortoiseLocked]
-[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\5TortoiseReadOnly]
-[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\6TortoiseDeleted]
-[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\7TortoiseAdded]
-[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\8TortoiseIgnored]
-[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\9TortoiseUnversioned]
-[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\Offline Files]
+; TortoiseGit Uninstall Registry Script (Portable - HKCU only, no admin required)
+; Removes all registry entries created by TortoiseGit portable installation files
+; Note: Overlay removal at the bottom DOES require admin (only if you installed overlays)
+
+; Remove URL handlers and URL handler classes
+
+[-HKEY_CURRENT_USER\Software\Classes\tgit]
+[-HKEY_CURRENT_USER\Software\Classes\git]
+[-HKEY_CURRENT_USER\Software\Classes\github-windows]
+[-HKEY_CURRENT_USER\Software\Classes\smartgit]
+[-HKEY_CURRENT_USER\Software\Classes\x-github-client]
+[-HKEY_CURRENT_USER\Software\Classes\TortoiseGit.UrlHandler]
+[-HKEY_CURRENT_USER\Software\Classes\TortoiseGit.GitUrlHandler]
+
+; Remove file associations (from tortoisegit-install-file-assoc.reg)
+
+[-HKEY_CURRENT_USER\Software\Classes\.diff]
+[-HKEY_CURRENT_USER\Software\Classes\.patch]
+[-HKEY_CURRENT_USER\Software\Classes\tortoisegit.diff.document]
+[-HKEY_CURRENT_USER\Software\Classes\tortoisegit.patch.document]
+
+; Remove shell extension handlers
+
+[-HKEY_CURRENT_USER\Software\Classes\LibraryFolder\background\shellex\ContextMenuHandlers\TortoiseGit]
+[-HKEY_CURRENT_USER\Software\Classes\LibraryLocation\shellex\ContextMenuHandlers\TortoiseGit]
+[-HKEY_CURRENT_USER\Software\Classes\*\shellex\ContextMenuHandlers\TortoiseGit]
+[-HKEY_CURRENT_USER\Software\Classes\*\shellex\PropertySheetHandlers\TortoiseGit]
+[-HKEY_CURRENT_USER\Software\Classes\Directory\Background\shellex\ContextMenuHandlers\TortoiseGit]
+[-HKEY_CURRENT_USER\Software\Classes\Directory\shellex\ContextMenuHandlers\TortoiseGit]
+[-HKEY_CURRENT_USER\Software\Classes\Directory\shellex\CopyHookHandlers\TortoiseGit]
+[-HKEY_CURRENT_USER\Software\Classes\Directory\shellex\DragDropHandlers\TortoiseGit]
+[-HKEY_CURRENT_USER\Software\Classes\Directory\shellex\PropertySheetHandlers\TortoiseGit]
+[-HKEY_CURRENT_USER\Software\Classes\Drive\shellex\ContextMenuHandlers\TortoiseGit]
+[-HKEY_CURRENT_USER\Software\Classes\Drive\shellex\PropertySheetHandlers\TortoiseGit]
+[-HKEY_CURRENT_USER\Software\Classes\Folder\shellex\ContextMenuHandlers\TortoiseGit]
+[-HKEY_CURRENT_USER\Software\Classes\Folder\shellex\DragDropHandlers\TortoiseGit]
+[-HKEY_CURRENT_USER\Software\Classes\InternetShortcut\shellex\ContextMenuHandlers\TortoiseGit]
+[-HKEY_CURRENT_USER\Software\Classes\lnkfile\shellex\ContextMenuHandlers\TortoiseGit]
+
+; Remove shell handler CLSIDs
+
+[-HKEY_CURRENT_USER\Software\Classes\CLSID\{451C7E59-058F-450A-8C42-FE9A12A302FC}]
+[-HKEY_CURRENT_USER\Software\Classes\CLSID\{8DA7CDCB-DC0B-4246-80BD-812E942734AF}]
+[-HKEY_CURRENT_USER\Software\Classes\CLSID\{475A024D-6157-4E03-8C61-D1FA9806415C}]
+[-HKEY_CURRENT_USER\Software\Classes\CLSID\{10A0FDD2-B0C0-4CD4-A7AE-E594CE3B91C8}]
+[-HKEY_CURRENT_USER\Software\Classes\CLSID\{6A4800FA-13B4-4CB4-9A37-97E7FAEDA731}]
+[-HKEY_CURRENT_USER\Software\Classes\CLSID\{5F380D0B-EE64-479B-B2AD-EF437BF4B0A6}]
+[-HKEY_CURRENT_USER\Software\Classes\CLSID\{D69716CD-6993-4D0D-898F-5EBBC25C5D4D}]
+[-HKEY_CURRENT_USER\Software\Classes\CLSID\{4E453CBA-2AAB-465C-A01E-627A7BE9ED73}]
+[-HKEY_CURRENT_USER\Software\Classes\CLSID\{A38915E4-A460-4143-8D6B-0B45564C6A00}]
+[-HKEY_CURRENT_USER\Software\Classes\CLSID\{1B94B098-57C6-4C39-9DC5-8EB00E423D3E}]
+[-HKEY_CURRENT_USER\Software\Classes\CLSID\{18BF1135-6EA2-405F-A71E-16EEE7F71F8B}]
+
+; Remove user configuration
+
+[-HKEY_CURRENT_USER\Software\TortoiseGit]
+
+; =============================================================================
+; OPTIONAL: Remove icon overlays (REQUIRES ADMIN)
+; Only needed if you ran tortoisegit-install-overlays.reg previously
+; Run this section manually as Administrator if needed, errors are harmless
+; =============================================================================
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\  Tortoise1Normal]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\  Tortoise2Modified]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\  Tortoise3Conflict]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\  Tortoise4Locked]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\  Tortoise5ReadOnly]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\  Tortoise6Deleted]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\  Tortoise7Added]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\  Tortoise8Ignored]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\  Tortoise9Unversioned]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\TortoiseOverlays]
+
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{C5994560-53D9-4125-87C9-F193FC689CB2}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{C5994561-53D9-4125-87C9-F193FC689CB2}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{C5994562-53D9-4125-87C9-F193FC689CB2}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{C5994563-53D9-4125-87C9-F193FC689CB2}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{C5994564-53D9-4125-87C9-F193FC689CB2}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{C5994565-53D9-4125-87C9-F193FC689CB2}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{C5994566-53D9-4125-87C9-F193FC689CB2}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{C5994567-53D9-4125-87C9-F193FC689CB2}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{C5994568-53D9-4125-87C9-F193FC689CB2}]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\Offline Files]
+@="{750fdf0e-2a26-11d1-a3ea-080036587f03}"
+
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved]
-"{30351348-7B7D-4FCC-81B4-1E394CA267EB}"=-
-"{30351347-7B7D-4FCC-81B4-1E394CA267EB}"=-
-"{3035134A-7B7D-4FCC-81B4-1E394CA267EB}"=-
-"{3035134C-7B7D-4FCC-81B4-1E394CA267EB}"=-
-"{30351346-7B7D-4FCC-81B4-1E394CA267EB}"=-
-"{30351349-7B7D-4FCC-81B4-1E394CA267EB}"=-
-"{3035134B-7B7D-4FCC-81B4-1E394CA267EB}"=-
-"{3035134D-7B7D-4FCC-81B4-1E394CA267EB}"=-
-"{3035134E-7B7D-4FCC-81B4-1E394CA267EB}"=-
-"{3035134F-7B7D-4FCC-81B4-1E394CA267EB}"=-
-"{30351350-7B7D-4FCC-81B4-1E394CA267EB}"=-
 "{C5994560-53D9-4125-87C9-F193FC689CB2}"=-
 "{C5994561-53D9-4125-87C9-F193FC689CB2}"=-
 "{C5994562-53D9-4125-87C9-F193FC689CB2}"=-
@@ -80,7 +98,3 @@ REGEDIT4
 "{C5994566-53D9-4125-87C9-F193FC689CB2}"=-
 "{C5994567-53D9-4125-87C9-F193FC689CB2}"=-
 "{C5994568-53D9-4125-87C9-F193FC689CB2}"=-
-[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\SubWCRev.exe]
-[-HKEY_CURRENT_USER\Software\TortoiseSVN]
-[-HKEY_LOCAL_MACHINE\SOFTWARE\TortoiseSVN]
-[-HKEY_LOCAL_MACHINE\SOFTWARE\TortoiseOverlays]
